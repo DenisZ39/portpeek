@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portpeek"
+version = "0.1.0"
+description = "a clean, human friendly cli to inspect and free local ports"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.12.0",
+    "rich>=13.7.0",
+    "psutil>=6.0.0",
+]
+
+[project.scripts]
+portpeek = "portpeek.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
