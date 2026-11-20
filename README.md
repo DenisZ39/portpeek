@@ -9,9 +9,9 @@ A clean, cross platform CLI to inspect active listening ports and stop processes
 - Inspect and stop processes on a port with confirmation, '--dry-run', '--force' and '--yes' ('portpeek kill <port>')
 
 ## demo
-![portpeek ls output](assets.demo_ls.png)
-![portpeek ls by port](assets.demo_ls_by_port.png)
-![portpeek kill by port](assets.demo_kill_by_port.png)
+![portpeek ls output](assets/demo_ls.png)
+![portpeek ls by port](assets/demo_ls_by_port.png)
+![portpeek kill by port](assets/demo_kill_by_port.png)
 
 
 ## install 

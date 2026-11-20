@@ -96,7 +96,7 @@ def list_ports(
     
     if as_json:
         payload = {
-            "ports": [addct(e) for e in entries],
+            "ports": [asdict(e) for e in entries],
             "skipped_restricted": skipped,
         }
         print(json.dumps(payload, indent=2))
@@ -178,7 +178,7 @@ def kill_port(
         )
         raise typer.Exit(code=1)
     except psutil.TimeoutExpired:
-        console,print(
+        console.print(
             f"[yellow]process {target.pid} did not exit within 3s.[/yellow] Try again with [bold]--force[/bold]"
         )
         raise typer.Exit(code=1)

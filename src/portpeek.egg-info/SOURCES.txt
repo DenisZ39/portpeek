@@ -1,9 +1,0 @@
-pyproject.toml
-src/portpeek/__init__.py
-src/portpeek/cli.py
-src/portpeek.egg-info/PKG-INFO
-src/portpeek.egg-info/SOURCES.txt
-src/portpeek.egg-info/dependency_links.txt
-src/portpeek.egg-info/entry_points.txt
-src/portpeek.egg-info/requires.txt
-src/portpeek.egg-info/top_level.txt
